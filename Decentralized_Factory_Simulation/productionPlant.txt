@@ -1,0 +1,4009 @@
+-----------------------------------------
+|            Dhruv G Bhatti             |
+-----------------------------------------
+
+Lets start the production of parts!! 
+
+
+Current Time : 83426 us
+Part_Worker ID : 7
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 2121 us
+Buffer State : ( 0,0,0,0 )
+Load Order : [ 1,2,0,1 ]
+Updated Buffer State : ( 1,2,0,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 87302 us
+Part_Worker ID : 8
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 94 us
+Buffer State : ( 1,2,0,1 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 1,4,2,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 89100 us
+Part_Worker ID : 2
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 1570 us
+Buffer State : ( 1,4,2,1 )
+Load Order : [ 1,0,2,1 ]
+Updated Buffer State : ( 2,4,4,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 90120 us
+Part_Worker ID : 5
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 132 us
+Buffer State : ( 2,4,4,2 )
+Load Order : [ 1,1,2,0 ]
+Updated Buffer State : ( 3,5,4,2 )
+Updated Load Order : [ 0,0,2,0 ]
+
+Current Time : 90537 us
+Part_Worker ID : 4
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 101 us
+Buffer State : ( 3,5,4,2 )
+Load Order : [ 1,2,1,0 ]
+Updated Buffer State : ( 4,5,4,2 )
+Updated Load Order : [ 0,2,1,0 ]
+
+Current Time : 90796 us
+Part_Worker ID : 6
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 119 us
+Buffer State : ( 4,5,4,2 )
+Load Order : [ 0,3,0,1 ]
+Updated Buffer State : ( 4,5,4,3 )
+Updated Load Order : [ 0,3,0,0 ]
+
+Current Time : 91089 us
+Part_Worker ID : 0
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 102 us
+Buffer State : ( 4,5,4,3 )
+Load Order : [ 2,1,1,0 ]
+Updated Buffer State : ( 6,5,4,3 )
+Updated Load Order : [ 0,1,1,0 ]
+
+Current Time : 91449 us
+Product worker ID: 12
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 104 us
+Buffer State : ( 6,5,4,3 )
+Pickup Order : [0,1,1,3 ]
+Updated Buffer : ( 6,4,3,0 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 1
+
+Current Time : 91761 us
+Part_Worker ID : 9
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 435 us
+Buffer State : ( 6,4,3,0 )
+Load Order : [ 2,1,0,1 ]
+Updated Buffer State : ( 6,5,3,1 )
+Updated Load Order : [ 2,0,0,0 ]
+
+Current Time : 92053 us
+Product worker ID: 14
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 97 us
+Buffer State : ( 6,5,3,1 )
+Pickup Order : [2,2,0,1 ]
+Updated Buffer : ( 4,3,3,0 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 2
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 92366 us
+Part_Worker ID : 9
+Iteration : 0
+Status : WakeUp-Notified 
+Accumulated Wait Time : 1030 us
+Buffer State : ( 4,3,3,0 )
+Load Order : [ 2,0,0,0 ]
+Updated Buffer State : ( 6,3,3,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 92662 us
+Product worker ID: 10
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 10267 us
+Buffer State : ( 6,3,3,0 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 5,0,3,0 )
+Updated Pickup Order : [0,0,0,1 ]
+
+Current Time : 93306 us
+Product worker ID: 9
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 11849 us
+Buffer State : ( 5,0,3,0 )
+Pickup Order : [0,1,1,3 ]
+Updated Buffer : ( 5,0,2,0 )
+Updated Pickup Order : [0,1,0,3 ]
+
+Current Time : 93774 us
+Product worker ID: 7
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 13156 us
+Buffer State : ( 5,0,2,0 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 4,0,2,0 )
+Updated Pickup Order : [0,2,0,2 ]
+
+Current Time : 94409 us
+Product worker ID: 11
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 14799 us
+Buffer State : ( 4,0,2,0 )
+Pickup Order : [2,1,0,2 ]
+Updated Buffer : ( 2,0,2,0 )
+Updated Pickup Order : [0,1,0,2 ]
+
+Current Time : 94889 us
+Product worker ID: 8
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 13507 us
+Buffer State : ( 2,0,2,0 )
+Pickup Order : [0,3,1,1 ]
+Updated Buffer : ( 2,0,1,0 )
+Updated Pickup Order : [0,3,0,1 ]
+
+Current Time : 95340 us
+Product worker ID: 5
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 18602 us
+Buffer State : ( 2,0,1,0 )
+Pickup Order : [1,1,3,0 ]
+Updated Buffer : ( 1,0,0,0 )
+Updated Pickup Order : [0,1,2,0 ]
+
+Current Time : 95750 us
+Product worker ID: 3
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 21398 us
+Buffer State : ( 1,0,0,0 )
+Pickup Order : [0,3,1,1 ]
+Updated Buffer : ( 1,0,0,0 )
+Updated Pickup Order : [0,3,1,1 ]
+
+Current Time : 96082 us
+Product worker ID: 6
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 18265 us
+Buffer State : ( 1,0,0,0 )
+Pickup Order : [0,1,2,2 ]
+Updated Buffer : ( 1,0,0,0 )
+Updated Pickup Order : [0,1,2,2 ]
+
+Current Time : 96372 us
+Product worker ID: 1
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 23376 us
+Buffer State : ( 1,0,0,0 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 0,0,0,0 )
+Updated Pickup Order : [0,3,1,0 ]
+
+Current Time : 96728 us
+Part_Worker ID : 8
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 117 us
+Buffer State : ( 0,0,0,0 )
+Load Order : [ 2,2,0,0 ]
+Updated Buffer State : ( 2,2,0,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 97066 us
+Product worker ID: 0
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 24040 us
+Buffer State : ( 2,2,0,0 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 1,0,0,0 )
+Updated Pickup Order : [0,1,1,0 ]
+
+Current Time : 97368 us
+Product worker ID: 13
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 115 us
+Buffer State : ( 1,0,0,0 )
+Pickup Order : [0,1,3,1 ]
+Updated Buffer : ( 1,0,0,0 )
+Updated Pickup Order : [0,1,3,1 ]
+
+Current Time : 97693 us
+Part_Worker ID : 3
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 6407 us
+Buffer State : ( 1,0,0,0 )
+Load Order : [ 3,0,0,1 ]
+Updated Buffer State : ( 4,0,0,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 98008 us
+Part_Worker ID : 6
+Iteration : 0
+Status : WakeUp-Notified 
+Accumulated Wait Time : 7324 us
+Buffer State : ( 4,0,0,1 )
+Load Order : [ 0,3,0,0 ]
+Updated Buffer State : ( 4,3,0,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 98297 us
+Product worker ID: 15
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 119 us
+Buffer State : ( 4,3,0,1 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 3,0,0,0 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 3
+
+Current Time : 98651 us
+Part_Worker ID : 9
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 112 us
+Buffer State : ( 3,0,0,0 )
+Load Order : [ 0,3,0,1 ]
+Updated Buffer State : ( 3,3,0,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 98960 us
+Product worker ID: 14
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 99 us
+Buffer State : ( 3,3,0,1 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 2,1,0,0 )
+Updated Pickup Order : [0,0,0,1 ]
+
+Current Time : 99267 us
+Product worker ID: 12
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 90 us
+Buffer State : ( 2,1,0,0 )
+Pickup Order : [2,2,0,1 ]
+Updated Buffer : ( 0,0,0,0 )
+Updated Pickup Order : [0,1,0,1 ]
+
+Current Time : 99604 us
+Part_Worker ID : 13
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 164 us
+Buffer State : ( 0,0,0,0 )
+Load Order : [ 1,2,0,1 ]
+Updated Buffer State : ( 1,2,0,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 99936 us
+Part_Worker ID : 7
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 88 us
+Buffer State : ( 1,2,0,1 )
+Load Order : [ 0,1,1,2 ]
+Updated Buffer State : ( 1,3,1,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 100220 us
+Part_Worker ID : 14
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 117 us
+Buffer State : ( 1,3,1,3 )
+Load Order : [ 1,0,0,3 ]
+Updated Buffer State : ( 2,3,1,3 )
+Updated Load Order : [ 0,0,0,3 ]
+
+Current Time : 100581 us
+Part_Worker ID : 15
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 124 us
+Buffer State : ( 2,3,1,3 )
+Load Order : [ 2,0,2,0 ]
+Updated Buffer State : ( 4,3,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 100856 us
+Part_Worker ID : 2
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 102 us
+Buffer State : ( 4,3,3,3 )
+Load Order : [ 0,0,3,1 ]
+Updated Buffer State : ( 4,3,4,3 )
+Updated Load Order : [ 0,0,2,1 ]
+
+Current Time : 101176 us
+Part_Worker ID : 11
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 96 us
+Buffer State : ( 4,3,4,3 )
+Load Order : [ 1,1,2,0 ]
+Updated Buffer State : ( 5,4,4,3 )
+Updated Load Order : [ 0,0,2,0 ]
+
+Current Time : 101465 us
+Part_Worker ID : 12
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 143 us
+Buffer State : ( 5,4,4,3 )
+Load Order : [ 2,1,0,1 ]
+Updated Buffer State : ( 6,5,4,3 )
+Updated Load Order : [ 1,0,0,1 ]
+
+Current Time : 101919 us
+Product worker ID: 2
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 28210 us
+Buffer State : ( 6,5,4,3 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 5,2,3,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 4
+
+Current Time : 102275 us
+Part_Worker ID : 18
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 486 us
+Buffer State : ( 5,2,3,3 )
+Load Order : [ 2,0,1,1 ]
+Updated Buffer State : ( 6,2,4,3 )
+Updated Load Order : [ 1,0,0,1 ]
+
+Current Time : 102599 us
+Part_Worker ID : 1
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 11297 us
+Buffer State : ( 6,2,4,3 )
+Load Order : [ 0,0,2,2 ]
+Updated Buffer State : ( 6,2,4,3 )
+Updated Load Order : [ 0,0,2,2 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 102976 us
+Product worker ID: 1
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,2,4,3 )
+Pickup Order : [0,3,1,0 ]
+Updated Buffer State : ( 6,2,4,3 )
+Pickup Order to be destroyed : [1,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 103425 us
+Product worker ID: 3
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,2,4,3 )
+Pickup Order : [0,3,1,1 ]
+Updated Buffer State : ( 6,2,4,3 )
+Pickup Order to be destroyed : [0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 103796 us
+Product worker ID: 5
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,2,4,3 )
+Pickup Order : [0,1,2,0 ]
+Updated Buffer : ( 6,1,2,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 5
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 104219 us
+Product worker ID: 7
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,1,2,3 )
+Pickup Order : [0,2,0,2 ]
+Updated Buffer State : ( 6,1,2,3 )
+Pickup Order to be destroyed : [1,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 104642 us
+Product worker ID: 9
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,1,2,3 )
+Pickup Order : [0,1,0,3 ]
+Updated Buffer State : ( 6,1,2,3 )
+Pickup Order to be destroyed : [0,0,1,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 105066 us
+Product worker ID: 10
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,1,2,3 )
+Pickup Order : [0,0,0,1 ]
+Updated Buffer : ( 6,1,2,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 6
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 105495 us
+Part_Worker ID : 0
+Iteration : 0
+Status : WakeUp-Notified 
+Accumulated Wait Time : 14554 us
+Buffer State : ( 6,1,2,2 )
+Load Order : [ 0,1,1,0 ]
+Updated Buffer State : ( 6,2,3,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 106003 us
+Part_Worker ID : 5
+Iteration : 0
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 16037 us
+Buffer State : ( 6,2,3,2 )
+Load Order : [ 0,0,2,0 ]
+Updated Buffer State : ( 6,2,3,2 )
+Load Order to be discarded : [ 0,0,2,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 106399 us
+Part_Worker ID : 4
+Iteration : 0
+Status : WakeUp-Notified 
+Accumulated Wait Time : 15999 us
+Buffer State : ( 6,2,3,2 )
+Load Order : [ 0,2,1,0 ]
+Updated Buffer State : ( 6,4,4,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 106831 us
+Product worker ID: 13
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,4,4,2 )
+Pickup Order : [0,1,3,1 ]
+Updated Buffer : ( 6,3,1,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 7
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 107175 us
+Product worker ID: 0
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,3,1,1 )
+Pickup Order : [0,1,1,0 ]
+Updated Buffer State : ( 6,3,1,1 )
+Pickup Order to be destroyed : [1,2,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 107414 us
+Product worker ID: 12
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 6,3,1,1 )
+Pickup Order : [0,1,0,1 ]
+Updated Buffer State : ( 6,3,1,1 )
+Pickup Order to be destroyed : [2,1,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 107652 us
+Product worker ID: 14
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 6,3,1,1 )
+Pickup Order : [0,0,0,1 ]
+Updated Buffer State : ( 6,3,1,1 )
+Pickup Order to be destroyed : [1,2,0,1 ]
+
+Current Time : 107895 us
+Product worker ID: 4
+Iteration: 0
+Status : New PickUp Order 
+Accumulated Wait Time : 32037 us
+Buffer State : ( 6,3,1,1 )
+Pickup Order : [1,1,3,0 ]
+Updated Buffer : ( 5,2,0,1 )
+Updated Pickup Order : [0,0,2,0 ]
+
+Current Time : 108134 us
+Part_Worker ID : 17
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 6354 us
+Buffer State : ( 5,2,0,1 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 5,2,1,3 )
+Updated Load Order : [ 0,0,0,1 ]
+
+Current Time : 108405 us
+Part_Worker ID : 19
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 6627 us
+Buffer State : ( 5,2,1,3 )
+Load Order : [ 0,0,2,2 ]
+Updated Buffer State : ( 5,2,3,3 )
+Updated Load Order : [ 0,0,0,2 ]
+
+Current Time : 108639 us
+Part_Worker ID : 16
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 6882 us
+Buffer State : ( 5,2,3,3 )
+Load Order : [ 3,1,0,0 ]
+Updated Buffer State : ( 6,3,3,3 )
+Updated Load Order : [ 2,0,0,0 ]
+
+Current Time : 108906 us
+Part_Worker ID : 10
+Iteration : 0
+Status : New Load Order 
+Accumulated Wait Time : 7175 us
+Buffer State : ( 6,3,3,3 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 6,3,4,3 )
+Updated Load Order : [ 0,0,0,3 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 109215 us
+Part_Worker ID : 11
+Iteration : 0
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 8136 us
+Buffer State : ( 6,3,4,3 )
+Load Order : [ 0,0,2,0 ]
+Updated Buffer State : ( 6,3,4,3 )
+Load Order to be discarded : [ 0,0,2,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 109591 us
+Part_Worker ID : 12
+Iteration : 0
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 8252 us
+Buffer State : ( 6,3,4,3 )
+Load Order : [ 1,0,0,1 ]
+Updated Buffer State : ( 6,3,4,3 )
+Load Order to be discarded : [ 1,0,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 110036 us
+Part_Worker ID : 2
+Iteration : 1
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 9334 us
+Buffer State : ( 6,3,4,3 )
+Load Order : [ 0,0,2,1 ]
+Updated Buffer State : ( 6,3,4,3 )
+Load Order to be discarded : [ 0,0,2,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 110521 us
+Part_Worker ID : 14
+Iteration : 0
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 10432 us
+Buffer State : ( 6,3,4,3 )
+Load Order : [ 0,0,0,3 ]
+Updated Buffer State : ( 6,3,4,3 )
+Load Order to be discarded : [ 0,0,0,3 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 111013 us
+Part_Worker ID : 18
+Iteration : 0
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 9236 us
+Buffer State : ( 6,3,4,3 )
+Load Order : [ 1,0,0,1 ]
+Updated Buffer State : ( 6,3,4,3 )
+Load Order to be discarded : [ 1,0,0,1 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 111435 us
+Product worker ID: 6
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,3,4,3 )
+Pickup Order : [0,1,2,2 ]
+Updated Buffer : ( 6,2,2,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 8
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 111800 us
+Product worker ID: 8
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 6,2,2,1 )
+Pickup Order : [0,3,0,1 ]
+Updated Buffer State : ( 6,2,2,1 )
+Pickup Order to be destroyed : [0,0,1,0 ]
+
+Current Time : 112071 us
+Product worker ID: 3
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 100 us
+Buffer State : ( 6,2,2,1 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 5,0,1,1 )
+Updated Pickup Order : [0,1,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 112484 us
+Product worker ID: 11
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 5,0,1,1 )
+Pickup Order : [0,1,0,2 ]
+Updated Buffer State : ( 5,0,1,1 )
+Pickup Order to be destroyed : [2,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 112729 us
+Part_Worker ID : 1
+Iteration : 0
+Status : WakeUp-Notified 
+Accumulated Wait Time : 21418 us
+Buffer State : ( 5,0,1,1 )
+Load Order : [ 0,0,2,2 ]
+Updated Buffer State : ( 5,0,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 113018 us
+Part_Worker ID : 17
+Iteration : 0
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 11223 us
+Buffer State : ( 5,0,3,3 )
+Load Order : [ 0,0,0,1 ]
+Updated Buffer State : ( 5,0,3,3 )
+Load Order to be discarded : [ 0,0,0,1 ]
+
+Current Time : 113226 us
+Product worker ID: 12
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 86 us
+Buffer State : ( 5,0,3,3 )
+Pickup Order : [0,3,1,1 ]
+Updated Buffer : ( 5,0,2,2 )
+Updated Pickup Order : [0,3,0,0 ]
+
+Current Time : 113525 us
+Product worker ID: 13
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 140 us
+Buffer State : ( 5,0,2,2 )
+Pickup Order : [0,3,1,1 ]
+Updated Buffer : ( 5,0,1,1 )
+Updated Pickup Order : [0,3,0,0 ]
+
+Current Time : 113859 us
+Part_Worker ID : 4
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 89 us
+Buffer State : ( 5,0,1,1 )
+Load Order : [ 0,1,1,2 ]
+Updated Buffer State : ( 5,1,2,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 114191 us
+Product worker ID: 14
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 143 us
+Buffer State : ( 5,1,2,3 )
+Pickup Order : [1,2,2,0 ]
+Updated Buffer : ( 4,0,0,3 )
+Updated Pickup Order : [0,1,0,0 ]
+
+Current Time : 114537 us
+Product worker ID: 2
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 101 us
+Buffer State : ( 4,0,0,3 )
+Pickup Order : [2,0,2,1 ]
+Updated Buffer : ( 2,0,0,2 )
+Updated Pickup Order : [0,0,2,0 ]
+
+Current Time : 114824 us
+Product worker ID: 9
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 104 us
+Buffer State : ( 2,0,0,2 )
+Pickup Order : [2,0,2,1 ]
+Updated Buffer : ( 0,0,0,1 )
+Updated Pickup Order : [0,0,2,0 ]
+
+Current Time : 115143 us
+Product worker ID: 7
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 97 us
+Buffer State : ( 0,0,0,1 )
+Pickup Order : [0,1,2,2 ]
+Updated Buffer : ( 0,0,0,0 )
+Updated Pickup Order : [0,1,2,1 ]
+
+Current Time : 115448 us
+Part_Worker ID : 15
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 88 us
+Buffer State : ( 0,0,0,0 )
+Load Order : [ 0,0,2,2 ]
+Updated Buffer State : ( 0,0,2,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 115935 us
+Product worker ID: 10
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 297 us
+Buffer State : ( 0,0,2,2 )
+Pickup Order : [2,0,1,2 ]
+Updated Buffer : ( 0,0,1,0 )
+Updated Pickup Order : [2,0,0,0 ]
+
+Current Time : 116279 us
+Part_Worker ID : 13
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 111 us
+Buffer State : ( 0,0,1,0 )
+Load Order : [ 2,1,1,0 ]
+Updated Buffer State : ( 2,1,2,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 116611 us
+Product worker ID: 1
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 111 us
+Buffer State : ( 2,1,2,0 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 1,0,1,0 )
+Updated Pickup Order : [0,2,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 116967 us
+Product worker ID: 4
+Iteration: 0
+Status : WakeUp-Notified 
+Buffer State : ( 1,0,1,0 )
+Pickup Order : [0,0,2,0 ]
+Updated Buffer State : ( 1,0,1,0 )
+Pickup Order to be destroyed : [1,1,1,0 ]
+
+Current Time : 117224 us
+Product worker ID: 5
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 114 us
+Buffer State : ( 1,0,1,0 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 0,0,1,0 )
+Updated Pickup Order : [0,3,0,1 ]
+
+Current Time : 117669 us
+Part_Worker ID : 3
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 126 us
+Buffer State : ( 0,0,1,0 )
+Load Order : [ 0,2,0,2 ]
+Updated Buffer State : ( 0,2,1,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 118054 us
+Part_Worker ID : 6
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 120 us
+Buffer State : ( 0,2,1,2 )
+Load Order : [ 1,2,0,1 ]
+Updated Buffer State : ( 1,4,1,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 118334 us
+Part_Worker ID : 8
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 100 us
+Buffer State : ( 1,4,1,3 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 1,4,2,3 )
+Updated Load Order : [ 0,0,0,3 ]
+
+Current Time : 118650 us
+Product worker ID: 15
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 88 us
+Buffer State : ( 1,4,2,3 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 0,2,2,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 9
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 118972 us
+Part_Worker ID : 16
+Iteration : 0
+Status : WakeUp-Notified 
+Accumulated Wait Time : 17227 us
+Buffer State : ( 0,2,2,1 )
+Load Order : [ 2,0,0,0 ]
+Updated Buffer State : ( 2,2,2,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 119310 us
+Part_Worker ID : 10
+Iteration : 0
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 17578 us
+Buffer State : ( 2,2,2,1 )
+Load Order : [ 0,0,0,3 ]
+Updated Buffer State : ( 2,2,2,1 )
+Load Order to be discarded : [ 0,0,0,3 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 119609 us
+Part_Worker ID : 19
+Iteration : 0
+Status : WakeUp-Notified 
+Accumulated Wait Time : 17842 us
+Buffer State : ( 2,2,2,1 )
+Load Order : [ 0,0,0,2 ]
+Updated Buffer State : ( 2,2,2,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 119921 us
+Product worker ID: 3
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 2,2,2,3 )
+Pickup Order : [0,1,0,0 ]
+Updated Buffer : ( 2,1,2,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 10
+
+Current Time : 120251 us
+Part_Worker ID : 0
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 116 us
+Buffer State : ( 2,1,2,3 )
+Load Order : [ 1,0,2,1 ]
+Updated Buffer State : ( 3,1,4,3 )
+Updated Load Order : [ 0,0,0,1 ]
+
+Current Time : 120568 us
+Product worker ID: 0
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 94 us
+Buffer State : ( 3,1,4,3 )
+Pickup Order : [1,1,3,0 ]
+Updated Buffer : ( 2,0,1,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 11
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 120906 us
+Product worker ID: 2
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 2,0,1,3 )
+Pickup Order : [0,0,2,0 ]
+Updated Buffer State : ( 2,0,1,3 )
+Pickup Order to be destroyed : [2,0,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 121215 us
+Product worker ID: 12
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 2,0,1,3 )
+Pickup Order : [0,3,0,0 ]
+Updated Buffer State : ( 2,0,1,3 )
+Pickup Order to be destroyed : [0,0,1,1 ]
+
+Current Time : 121474 us
+Part_Worker ID : 7
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 93 us
+Buffer State : ( 2,0,1,3 )
+Load Order : [ 0,0,2,2 ]
+Updated Buffer State : ( 2,0,3,3 )
+Updated Load Order : [ 0,0,0,2 ]
+
+Current Time : 121763 us
+Part_Worker ID : 9
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 94 us
+Buffer State : ( 2,0,3,3 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 2,2,4,3 )
+Updated Load Order : [ 0,0,1,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 122071 us
+Product worker ID: 7
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 2,2,4,3 )
+Pickup Order : [0,1,2,1 ]
+Updated Buffer : ( 2,1,2,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 12
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 122406 us
+Product worker ID: 10
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 2,1,2,2 )
+Pickup Order : [2,0,0,0 ]
+Updated Buffer State : ( 2,1,2,2 )
+Pickup Order to be destroyed : [0,0,1,2 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 122711 us
+Part_Worker ID : 8
+Iteration : 2
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 4475 us
+Buffer State : ( 2,1,2,2 )
+Load Order : [ 0,0,0,3 ]
+Updated Buffer State : ( 2,1,2,2 )
+Load Order to be discarded : [ 0,0,0,3 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 123188 us
+Product worker ID: 9
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 2,1,2,2 )
+Pickup Order : [0,0,2,0 ]
+Updated Buffer State : ( 2,1,2,2 )
+Pickup Order to be destroyed : [2,0,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 123541 us
+Product worker ID: 14
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 2,1,2,2 )
+Pickup Order : [0,1,0,0 ]
+Updated Buffer State : ( 2,1,2,2 )
+Pickup Order to be destroyed : [1,1,2,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 123856 us
+Product worker ID: 13
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 2,1,2,2 )
+Pickup Order : [0,3,0,0 ]
+Updated Buffer State : ( 2,1,2,2 )
+Pickup Order to be destroyed : [0,0,1,1 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 124182 us
+Part_Worker ID : 9
+Iteration : 2
+Status : WakeUp-Notified 
+Accumulated Wait Time : 2518 us
+Buffer State : ( 2,1,2,2 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 2,1,3,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 124518 us
+Part_Worker ID : 0
+Iteration : 1
+Status : WakeUp-Notified 
+Accumulated Wait Time : 4374 us
+Buffer State : ( 2,1,3,2 )
+Load Order : [ 0,0,0,1 ]
+Updated Buffer State : ( 2,1,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 124821 us
+Product worker ID: 1
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 2,1,3,3 )
+Pickup Order : [0,2,0,0 ]
+Updated Buffer State : ( 2,1,3,3 )
+Pickup Order to be destroyed : [1,1,1,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 125111 us
+Product worker ID: 5
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 2,1,3,3 )
+Pickup Order : [0,3,0,1 ]
+Updated Buffer State : ( 2,1,3,3 )
+Pickup Order to be destroyed : [1,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 125371 us
+Part_Worker ID : 7
+Iteration : 2
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 3995 us
+Buffer State : ( 2,1,3,3 )
+Load Order : [ 0,0,0,2 ]
+Updated Buffer State : ( 2,1,3,3 )
+Load Order to be discarded : [ 0,0,0,2 ]
+
+Current Time : 125679 us
+Product worker ID: 14
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 128 us
+Buffer State : ( 2,1,3,3 )
+Pickup Order : [2,2,0,1 ]
+Updated Buffer : ( 0,0,3,2 )
+Updated Pickup Order : [0,1,0,0 ]
+
+Current Time : 126037 us
+Product worker ID: 10
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 104 us
+Buffer State : ( 0,0,3,2 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 0,0,3,1 )
+Updated Pickup Order : [1,3,0,0 ]
+
+Current Time : 126318 us
+Product worker ID: 12
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 86 us
+Buffer State : ( 0,0,3,1 )
+Pickup Order : [2,1,0,2 ]
+Updated Buffer : ( 0,0,3,0 )
+Updated Pickup Order : [2,1,0,1 ]
+
+Current Time : 126640 us
+Product worker ID: 13
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 157 us
+Buffer State : ( 0,0,3,0 )
+Pickup Order : [0,1,2,2 ]
+Updated Buffer : ( 0,0,1,0 )
+Updated Pickup Order : [0,1,0,2 ]
+
+Current Time : 127110 us
+Part_Worker ID : 19
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 107 us
+Buffer State : ( 0,0,1,0 )
+Load Order : [ 1,2,0,1 ]
+Updated Buffer State : ( 1,2,1,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 127426 us
+Part_Worker ID : 16
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 101 us
+Buffer State : ( 1,2,1,1 )
+Load Order : [ 1,0,2,1 ]
+Updated Buffer State : ( 2,2,3,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 127742 us
+Product worker ID: 7
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 234 us
+Buffer State : ( 2,2,3,2 )
+Pickup Order : [0,1,1,3 ]
+Updated Buffer : ( 2,1,2,0 )
+Updated Pickup Order : [0,0,0,1 ]
+
+Current Time : 128216 us
+Product worker ID: 2
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 149 us
+Buffer State : ( 2,1,2,0 )
+Pickup Order : [1,0,3,1 ]
+Updated Buffer : ( 1,1,0,0 )
+Updated Pickup Order : [0,0,1,1 ]
+
+Current Time : 128577 us
+Part_Worker ID : 3
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 102 us
+Buffer State : ( 1,1,0,0 )
+Load Order : [ 1,1,2,0 ]
+Updated Buffer State : ( 2,2,2,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 128898 us
+Part_Worker ID : 6
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 104 us
+Buffer State : ( 2,2,2,0 )
+Load Order : [ 2,1,1,0 ]
+Updated Buffer State : ( 4,3,3,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 129170 us
+Part_Worker ID : 13
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 106 us
+Buffer State : ( 4,3,3,0 )
+Load Order : [ 2,1,1,0 ]
+Updated Buffer State : ( 6,4,4,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 129456 us
+Part_Worker ID : 4
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 112 us
+Buffer State : ( 6,4,4,0 )
+Load Order : [ 1,2,1,0 ]
+Updated Buffer State : ( 6,5,4,0 )
+Updated Load Order : [ 1,1,1,0 ]
+
+Current Time : 129769 us
+Product worker ID: 3
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 90 us
+Buffer State : ( 6,5,4,0 )
+Pickup Order : [3,1,1,0 ]
+Updated Buffer : ( 3,4,3,0 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 13
+
+Current Time : 130066 us
+Part_Worker ID : 15
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 88 us
+Buffer State : ( 3,4,3,0 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 3,4,4,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 130341 us
+Product worker ID: 4
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 110 us
+Buffer State : ( 3,4,4,3 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 2,2,4,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 14
+
+Current Time : 130683 us
+Product worker ID: 15
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 86 us
+Buffer State : ( 2,2,4,1 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 1,0,4,0 )
+Updated Pickup Order : [0,0,0,1 ]
+
+Current Time : 130972 us
+Part_Worker ID : 1
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 116 us
+Buffer State : ( 1,0,4,0 )
+Load Order : [ 2,1,1,0 ]
+Updated Buffer State : ( 3,1,4,0 )
+Updated Load Order : [ 0,0,1,0 ]
+
+Current Time : 131328 us
+Product worker ID: 11
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 144 us
+Buffer State : ( 3,1,4,0 )
+Pickup Order : [3,1,1,0 ]
+Updated Buffer : ( 0,0,3,0 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 15
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 131726 us
+Part_Worker ID : 1
+Iteration : 1
+Status : WakeUp-Notified 
+Accumulated Wait Time : 866 us
+Buffer State : ( 0,0,3,0 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 0,0,4,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 132037 us
+Product worker ID: 6
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 92 us
+Buffer State : ( 0,0,4,0 )
+Pickup Order : [2,1,0,2 ]
+Updated Buffer : ( 0,0,4,0 )
+Updated Pickup Order : [2,1,0,2 ]
+
+Current Time : 132313 us
+Part_Worker ID : 11
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 88 us
+Buffer State : ( 0,0,4,0 )
+Load Order : [ 2,1,0,1 ]
+Updated Buffer State : ( 2,1,4,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 132598 us
+Product worker ID: 9
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 88 us
+Buffer State : ( 2,1,4,1 )
+Pickup Order : [0,2,2,1 ]
+Updated Buffer : ( 2,0,2,0 )
+Updated Pickup Order : [0,1,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 132994 us
+Product worker ID: 12
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 2,0,2,0 )
+Pickup Order : [2,1,0,1 ]
+Updated Buffer State : ( 2,0,2,0 )
+Pickup Order to be destroyed : [0,0,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 133264 us
+Product worker ID: 14
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 2,0,2,0 )
+Pickup Order : [0,1,0,0 ]
+Updated Buffer State : ( 2,0,2,0 )
+Pickup Order to be destroyed : [2,1,0,1 ]
+
+Current Time : 133522 us
+Product worker ID: 0
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 90 us
+Buffer State : ( 2,0,2,0 )
+Pickup Order : [0,1,1,3 ]
+Updated Buffer : ( 2,0,1,0 )
+Updated Pickup Order : [0,1,0,3 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 133853 us
+Product worker ID: 13
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 2,0,1,0 )
+Pickup Order : [0,1,0,2 ]
+Updated Buffer State : ( 2,0,1,0 )
+Pickup Order to be destroyed : [0,0,2,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 134127 us
+Product worker ID: 10
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 2,0,1,0 )
+Pickup Order : [1,3,0,0 ]
+Updated Buffer State : ( 2,0,1,0 )
+Pickup Order to be destroyed : [0,0,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 134434 us
+Product worker ID: 7
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 2,0,1,0 )
+Pickup Order : [0,0,0,1 ]
+Updated Buffer State : ( 2,0,1,0 )
+Pickup Order to be destroyed : [0,1,1,2 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 134703 us
+Part_Worker ID : 4
+Iteration : 2
+Status : WakeUp-Notified 
+Accumulated Wait Time : 5356 us
+Buffer State : ( 2,0,1,0 )
+Load Order : [ 1,1,1,0 ]
+Updated Buffer State : ( 3,1,2,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 135035 us
+Product worker ID: 2
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 3,1,2,0 )
+Pickup Order : [0,0,1,1 ]
+Updated Buffer State : ( 3,1,2,0 )
+Pickup Order to be destroyed : [1,0,2,0 ]
+
+Current Time : 135301 us
+Product worker ID: 8
+Iteration: 1
+Status : New PickUp Order 
+Accumulated Wait Time : 89 us
+Buffer State : ( 3,1,2,0 )
+Pickup Order : [2,1,0,2 ]
+Updated Buffer : ( 1,0,2,0 )
+Updated Pickup Order : [0,0,0,2 ]
+
+Current Time : 135583 us
+Part_Worker ID : 9
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 90 us
+Buffer State : ( 1,0,2,0 )
+Load Order : [ 1,1,2,0 ]
+Updated Buffer State : ( 2,1,4,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 135879 us
+Part_Worker ID : 5
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 87 us
+Buffer State : ( 2,1,4,0 )
+Load Order : [ 0,2,0,2 ]
+Updated Buffer State : ( 2,3,4,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 136189 us
+Product worker ID: 9
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 2,3,4,2 )
+Pickup Order : [0,1,0,0 ]
+Updated Buffer : ( 2,2,4,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 16
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 136510 us
+Product worker ID: 15
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 2,2,4,2 )
+Pickup Order : [0,0,0,1 ]
+Updated Buffer : ( 2,2,4,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 17
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 140837 us
+Product worker ID: 0
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 2,2,4,1 )
+Pickup Order : [0,1,0,3 ]
+Updated Buffer State : ( 2,2,4,1 )
+Pickup Order to be destroyed : [0,0,1,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 141253 us
+Product worker ID: 6
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 2,2,4,1 )
+Pickup Order : [2,1,0,2 ]
+Updated Buffer State : ( 2,2,4,1 )
+Pickup Order to be destroyed : [0,0,0,0 ]
+
+Current Time : 141608 us
+Part_Worker ID : 4
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 173 us
+Buffer State : ( 2,2,4,1 )
+Load Order : [ 1,1,1,1 ]
+Updated Buffer State : ( 3,3,4,2 )
+Updated Load Order : [ 0,0,1,0 ]
+
+Current Time : 142010 us
+Product worker ID: 9
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 135 us
+Buffer State : ( 3,3,4,2 )
+Pickup Order : [0,1,3,1 ]
+Updated Buffer : ( 3,2,1,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 18
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 142452 us
+Part_Worker ID : 4
+Iteration : 3
+Status : WakeUp-Notified 
+Accumulated Wait Time : 984 us
+Buffer State : ( 3,2,1,1 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 3,2,2,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 142796 us
+Product worker ID: 13
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 144 us
+Buffer State : ( 3,2,2,1 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 2,0,2,0 )
+Updated Pickup Order : [0,1,0,0 ]
+
+Current Time : 143347 us
+Part_Worker ID : 5
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 131 us
+Buffer State : ( 2,0,2,0 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 2,2,4,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 143729 us
+Part_Worker ID : 9
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 121 us
+Buffer State : ( 2,2,4,0 )
+Load Order : [ 0,3,0,1 ]
+Updated Buffer State : ( 2,5,4,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 144072 us
+Product worker ID: 2
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 123 us
+Buffer State : ( 2,5,4,1 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 1,2,3,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 19
+
+Current Time : 144465 us
+Product worker ID: 7
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 126 us
+Buffer State : ( 1,2,3,1 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 0,0,3,0 )
+Updated Pickup Order : [0,0,0,1 ]
+
+Current Time : 144854 us
+Product worker ID: 3
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 119 us
+Buffer State : ( 0,0,3,0 )
+Pickup Order : [2,2,1,0 ]
+Updated Buffer : ( 0,0,2,0 )
+Updated Pickup Order : [2,2,0,0 ]
+
+Current Time : 145254 us
+Product worker ID: 11
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 105 us
+Buffer State : ( 0,0,2,0 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 0,0,2,0 )
+Updated Pickup Order : [1,2,0,2 ]
+
+Current Time : 145657 us
+Part_Worker ID : 6
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 167 us
+Buffer State : ( 0,0,2,0 )
+Load Order : [ 0,1,2,1 ]
+Updated Buffer State : ( 0,1,4,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 146137 us
+Part_Worker ID : 16
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 137 us
+Buffer State : ( 0,1,4,1 )
+Load Order : [ 0,1,1,2 ]
+Updated Buffer State : ( 0,2,4,3 )
+Updated Load Order : [ 0,0,1,0 ]
+
+Current Time : 146528 us
+Part_Worker ID : 19
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 135 us
+Buffer State : ( 0,2,4,3 )
+Load Order : [ 2,2,0,0 ]
+Updated Buffer State : ( 2,4,4,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 146946 us
+Product worker ID: 10
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 249 us
+Buffer State : ( 2,4,4,3 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 1,1,4,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 20
+
+Current Time : 147471 us
+Product worker ID: 14
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 94 us
+Buffer State : ( 1,1,4,2 )
+Pickup Order : [2,2,1,0 ]
+Updated Buffer : ( 0,0,3,2 )
+Updated Pickup Order : [1,1,0,0 ]
+
+Current Time : 147760 us
+Part_Worker ID : 12
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 91 us
+Buffer State : ( 0,0,3,2 )
+Load Order : [ 2,1,0,1 ]
+Updated Buffer State : ( 2,1,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 148131 us
+Part_Worker ID : 11
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 164 us
+Buffer State : ( 2,1,3,3 )
+Load Order : [ 0,2,0,2 ]
+Updated Buffer State : ( 2,3,3,3 )
+Updated Load Order : [ 0,0,0,2 ]
+
+Current Time : 148412 us
+Part_Worker ID : 14
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 88 us
+Buffer State : ( 2,3,3,3 )
+Load Order : [ 0,2,0,2 ]
+Updated Buffer State : ( 2,5,3,3 )
+Updated Load Order : [ 0,0,0,2 ]
+
+Current Time : 148753 us
+Part_Worker ID : 10
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 126 us
+Buffer State : ( 2,5,3,3 )
+Load Order : [ 2,1,0,1 ]
+Updated Buffer State : ( 4,5,3,3 )
+Updated Load Order : [ 0,1,0,1 ]
+
+Current Time : 149127 us
+Part_Worker ID : 1
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 123 us
+Buffer State : ( 4,5,3,3 )
+Load Order : [ 0,3,1,0 ]
+Updated Buffer State : ( 4,5,4,3 )
+Updated Load Order : [ 0,3,0,0 ]
+
+Current Time : 149477 us
+Part_Worker ID : 8
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 128 us
+Buffer State : ( 4,5,4,3 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 4,5,4,3 )
+Updated Load Order : [ 0,0,1,3 ]
+
+Current Time : 149784 us
+Product worker ID: 12
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 96 us
+Buffer State : ( 4,5,4,3 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 3,3,4,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 21
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 150158 us
+Part_Worker ID : 11
+Iteration : 2
+Status : WakeUp-Notified 
+Accumulated Wait Time : 2221 us
+Buffer State : ( 3,3,4,1 )
+Load Order : [ 0,0,0,2 ]
+Updated Buffer State : ( 3,3,4,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 150585 us
+Product worker ID: 14
+Iteration: 4
+Status : WakeUp-Notified 
+Buffer State : ( 3,3,4,3 )
+Pickup Order : [1,1,0,0 ]
+Updated Buffer : ( 2,2,4,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 22
+
+Current Time : 151020 us
+Product worker ID: 5
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 106 us
+Buffer State : ( 2,2,4,3 )
+Pickup Order : [0,3,1,1 ]
+Updated Buffer : ( 2,0,3,2 )
+Updated Pickup Order : [0,1,0,0 ]
+
+Current Time : 151341 us
+Product worker ID: 1
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 131 us
+Buffer State : ( 2,0,3,2 )
+Pickup Order : [3,0,1,1 ]
+Updated Buffer : ( 0,0,2,1 )
+Updated Pickup Order : [1,0,0,0 ]
+
+Current Time : 151834 us
+Part_Worker ID : 3
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 95 us
+Buffer State : ( 0,0,2,1 )
+Load Order : [ 2,1,0,1 ]
+Updated Buffer State : ( 2,1,2,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 152107 us
+Part_Worker ID : 18
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 89 us
+Buffer State : ( 2,1,2,2 )
+Load Order : [ 2,0,2,0 ]
+Updated Buffer State : ( 4,1,4,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 152367 us
+Part_Worker ID : 0
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 122 us
+Buffer State : ( 4,1,4,2 )
+Load Order : [ 1,0,0,3 ]
+Updated Buffer State : ( 5,1,4,3 )
+Updated Load Order : [ 0,0,0,2 ]
+
+Current Time : 152698 us
+Part_Worker ID : 17
+Iteration : 1
+Status : New Load Order 
+Accumulated Wait Time : 111 us
+Buffer State : ( 5,1,4,3 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 5,1,4,3 )
+Updated Load Order : [ 0,0,1,3 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 153046 us
+Product worker ID: 8
+Iteration: 1
+Status : WakeUp-Notified 
+Buffer State : ( 5,1,4,3 )
+Pickup Order : [0,0,0,2 ]
+Updated Buffer : ( 5,1,4,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 23
+
+Current Time : 153349 us
+Product worker ID: 15
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 103 us
+Buffer State : ( 5,1,4,1 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 4,0,3,1 )
+Updated Pickup Order : [0,2,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 153745 us
+Product worker ID: 13
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 4,0,3,1 )
+Pickup Order : [0,1,0,0 ]
+Updated Buffer State : ( 4,0,3,1 )
+Pickup Order to be destroyed : [1,2,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 154035 us
+Product worker ID: 3
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 4,0,3,1 )
+Pickup Order : [2,2,0,0 ]
+Updated Buffer State : ( 4,0,3,1 )
+Pickup Order to be destroyed : [0,0,1,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 154316 us
+Part_Worker ID : 16
+Iteration : 2
+Status : WakeUp-Notified 
+Accumulated Wait Time : 8300 us
+Buffer State : ( 4,0,3,1 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 4,0,4,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 154628 us
+Part_Worker ID : 2
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 91 us
+Buffer State : ( 4,0,4,1 )
+Load Order : [ 1,2,0,1 ]
+Updated Buffer State : ( 5,2,4,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 154959 us
+Part_Worker ID : 1
+Iteration : 2
+Status : WakeUp-Notified 
+Accumulated Wait Time : 5960 us
+Buffer State : ( 5,2,4,2 )
+Load Order : [ 0,3,0,0 ]
+Updated Buffer State : ( 5,5,4,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 155283 us
+Part_Worker ID : 10
+Iteration : 1
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 6626 us
+Buffer State : ( 5,5,4,2 )
+Load Order : [ 0,1,0,1 ]
+Updated Buffer State : ( 5,5,4,2 )
+Load Order to be discarded : [ 0,1,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 155670 us
+Part_Worker ID : 14
+Iteration : 1
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 7394 us
+Buffer State : ( 5,5,4,2 )
+Load Order : [ 0,0,0,2 ]
+Updated Buffer State : ( 5,5,4,2 )
+Load Order to be discarded : [ 0,0,0,2 ]
+
+Current Time : 155991 us
+Product worker ID: 4
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 106 us
+Buffer State : ( 5,5,4,2 )
+Pickup Order : [0,1,1,3 ]
+Updated Buffer : ( 5,4,3,0 )
+Updated Pickup Order : [0,0,0,1 ]
+
+Current Time : 156276 us
+Part_Worker ID : 15
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 87 us
+Buffer State : ( 5,4,3,0 )
+Load Order : [ 1,2,1,0 ]
+Updated Buffer State : ( 6,5,4,0 )
+Updated Load Order : [ 0,1,0,0 ]
+
+Current Time : 156567 us
+Part_Worker ID : 13
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 107 us
+Buffer State : ( 6,5,4,0 )
+Load Order : [ 0,3,0,1 ]
+Updated Buffer State : ( 6,5,4,1 )
+Updated Load Order : [ 0,3,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 156894 us
+Part_Worker ID : 8
+Iteration : 3
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 7538 us
+Buffer State : ( 6,5,4,1 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 6,5,4,1 )
+Load Order to be discarded : [ 0,0,1,3 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 157236 us
+Product worker ID: 1
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 6,5,4,1 )
+Pickup Order : [1,0,0,0 ]
+Updated Buffer : ( 5,5,4,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 24
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 157518 us
+Part_Worker ID : 17
+Iteration : 1
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 4932 us
+Buffer State : ( 5,5,4,1 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 5,5,4,1 )
+Load Order to be discarded : [ 0,0,1,3 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 157830 us
+Product worker ID: 7
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 5,5,4,1 )
+Pickup Order : [0,0,0,1 ]
+Updated Buffer State : ( 5,5,4,1 )
+Pickup Order to be destroyed : [1,2,0,1 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 158114 us
+Product worker ID: 15
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 5,5,4,1 )
+Pickup Order : [0,2,0,0 ]
+Updated Buffer : ( 5,3,4,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 25
+
+Current Time : 158544 us
+Part_Worker ID : 3
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 103 us
+Buffer State : ( 5,3,4,1 )
+Load Order : [ 0,0,2,2 ]
+Updated Buffer State : ( 5,3,4,3 )
+Updated Load Order : [ 0,0,2,0 ]
+
+Current Time : 158854 us
+Part_Worker ID : 18
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 99 us
+Buffer State : ( 5,3,4,3 )
+Load Order : [ 1,1,2,0 ]
+Updated Buffer State : ( 6,4,4,3 )
+Updated Load Order : [ 0,0,2,0 ]
+
+Current Time : 159165 us
+Part_Worker ID : 12
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 96 us
+Buffer State : ( 6,4,4,3 )
+Load Order : [ 0,1,2,1 ]
+Updated Buffer State : ( 6,5,4,3 )
+Updated Load Order : [ 0,0,2,1 ]
+
+Current Time : 159574 us
+Product worker ID: 3
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 443 us
+Buffer State : ( 6,5,4,3 )
+Pickup Order : [0,1,3,1 ]
+Updated Buffer : ( 6,4,1,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 26
+
+Current Time : 160331 us
+Part_Worker ID : 4
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 132 us
+Buffer State : ( 6,4,1,2 )
+Load Order : [ 1,2,0,1 ]
+Updated Buffer State : ( 6,5,1,3 )
+Updated Load Order : [ 1,1,0,0 ]
+
+Current Time : 160739 us
+Product worker ID: 13
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 121 us
+Buffer State : ( 6,5,1,3 )
+Pickup Order : [0,2,1,2 ]
+Updated Buffer : ( 6,3,0,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 27
+
+Current Time : 161051 us
+Product worker ID: 14
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 94 us
+Buffer State : ( 6,3,0,1 )
+Pickup Order : [3,0,1,1 ]
+Updated Buffer : ( 3,3,0,0 )
+Updated Pickup Order : [0,0,1,0 ]
+
+Current Time : 161391 us
+Product worker ID: 8
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 117 us
+Buffer State : ( 3,3,0,0 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 2,0,0,0 )
+Updated Pickup Order : [0,0,0,1 ]
+
+Current Time : 161778 us
+Product worker ID: 12
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 88 us
+Buffer State : ( 2,0,0,0 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 1,0,0,0 )
+Updated Pickup Order : [0,3,0,1 ]
+
+Current Time : 162015 us
+Part_Worker ID : 9
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 91 us
+Buffer State : ( 1,0,0,0 )
+Load Order : [ 3,1,0,0 ]
+Updated Buffer State : ( 4,1,0,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 162307 us
+Part_Worker ID : 5
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 189 us
+Buffer State : ( 4,1,0,0 )
+Load Order : [ 0,1,0,3 ]
+Updated Buffer State : ( 4,2,0,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 163153 us
+Product worker ID: 10
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 148 us
+Buffer State : ( 4,2,0,3 )
+Pickup Order : [2,1,0,2 ]
+Updated Buffer : ( 2,1,0,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 28
+
+Current Time : 163568 us
+Product worker ID: 9
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 110 us
+Buffer State : ( 2,1,0,1 )
+Pickup Order : [2,1,0,2 ]
+Updated Buffer : ( 0,0,0,0 )
+Updated Pickup Order : [0,0,0,1 ]
+
+Current Time : 163873 us
+Part_Worker ID : 7
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 116 us
+Buffer State : ( 0,0,0,0 )
+Load Order : [ 1,0,0,3 ]
+Updated Buffer State : ( 1,0,0,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 164159 us
+Product worker ID: 2
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 447 us
+Buffer State : ( 1,0,0,3 )
+Pickup Order : [0,3,1,1 ]
+Updated Buffer : ( 1,0,0,2 )
+Updated Pickup Order : [0,3,1,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 164537 us
+Product worker ID: 5
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 1,0,0,2 )
+Pickup Order : [0,1,0,0 ]
+Updated Buffer State : ( 1,0,0,2 )
+Pickup Order to be destroyed : [0,2,1,1 ]
+
+Current Time : 164820 us
+Product worker ID: 6
+Iteration: 2
+Status : New PickUp Order 
+Accumulated Wait Time : 92 us
+Buffer State : ( 1,0,0,2 )
+Pickup Order : [2,2,0,1 ]
+Updated Buffer : ( 0,0,0,1 )
+Updated Pickup Order : [1,2,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 165172 us
+Part_Worker ID : 0
+Iteration : 2
+Status : WakeUp-Notified 
+Accumulated Wait Time : 12922 us
+Buffer State : ( 0,0,0,1 )
+Load Order : [ 0,0,0,2 ]
+Updated Buffer State : ( 0,0,0,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 165503 us
+Product worker ID: 11
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 0,0,0,3 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer State : ( 0,0,0,3 )
+Pickup Order to be destroyed : [0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 165768 us
+Part_Worker ID : 15
+Iteration : 3
+Status : WakeUp-Notified 
+Accumulated Wait Time : 9579 us
+Buffer State : ( 0,0,0,3 )
+Load Order : [ 0,1,0,0 ]
+Updated Buffer State : ( 0,1,0,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 166057 us
+Part_Worker ID : 6
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 6640 us
+Buffer State : ( 0,1,0,3 )
+Load Order : [ 0,1,1,2 ]
+Updated Buffer State : ( 0,2,1,3 )
+Updated Load Order : [ 0,0,0,2 ]
+
+Current Time : 166351 us
+Part_Worker ID : 11
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 6973 us
+Buffer State : ( 0,2,1,3 )
+Load Order : [ 2,0,1,1 ]
+Updated Buffer State : ( 2,2,2,3 )
+Updated Load Order : [ 0,0,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 166701 us
+Part_Worker ID : 12
+Iteration : 2
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 7633 us
+Buffer State : ( 2,2,2,3 )
+Load Order : [ 0,0,2,1 ]
+Updated Buffer State : ( 2,2,2,3 )
+Load Order to be discarded : [ 0,0,2,1 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 167020 us
+Part_Worker ID : 18
+Iteration : 2
+Status : WakeUp-Notified 
+Accumulated Wait Time : 8274 us
+Buffer State : ( 2,2,2,3 )
+Load Order : [ 0,0,2,0 ]
+Updated Buffer State : ( 2,2,4,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 167358 us
+Part_Worker ID : 3
+Iteration : 4
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 8912 us
+Buffer State : ( 2,2,4,3 )
+Load Order : [ 0,0,2,0 ]
+Updated Buffer State : ( 2,2,4,3 )
+Load Order to be discarded : [ 0,0,2,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 167679 us
+Part_Worker ID : 4
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 7466 us
+Buffer State : ( 2,2,4,3 )
+Load Order : [ 1,1,0,0 ]
+Updated Buffer State : ( 3,3,4,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 168006 us
+Product worker ID: 8
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 3,3,4,3 )
+Pickup Order : [0,0,0,1 ]
+Updated Buffer : ( 3,3,4,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 29
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 168304 us
+Product worker ID: 14
+Iteration: 5
+Status : WakeUp-Notified 
+Buffer State : ( 3,3,4,2 )
+Pickup Order : [0,0,1,0 ]
+Updated Buffer : ( 3,3,3,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 30
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 168602 us
+Product worker ID: 4
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 3,3,3,2 )
+Pickup Order : [0,0,0,1 ]
+Updated Buffer : ( 3,3,3,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 31
+
+Current Time : 168909 us
+Part_Worker ID : 16
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 122 us
+Buffer State : ( 3,3,3,1 )
+Load Order : [ 2,1,0,1 ]
+Updated Buffer State : ( 5,4,3,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 169252 us
+Product worker ID: 12
+Iteration: 5
+Status : WakeUp-Notified 
+Buffer State : ( 5,4,3,2 )
+Pickup Order : [0,3,0,1 ]
+Updated Buffer : ( 5,1,3,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 32
+
+Current Time : 169569 us
+Part_Worker ID : 1
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 150 us
+Buffer State : ( 5,1,3,1 )
+Load Order : [ 1,0,0,3 ]
+Updated Buffer State : ( 6,1,3,3 )
+Updated Load Order : [ 0,0,0,1 ]
+
+Current Time : 169954 us
+Part_Worker ID : 2
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 125 us
+Buffer State : ( 6,1,3,3 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 6,3,4,3 )
+Updated Load Order : [ 0,0,1,0 ]
+
+Current Time : 170297 us
+Product worker ID: 3
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 145 us
+Buffer State : ( 6,3,4,3 )
+Pickup Order : [1,1,3,0 ]
+Updated Buffer : ( 5,2,1,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 33
+
+Current Time : 170720 us
+Product worker ID: 10
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 595 us
+Buffer State : ( 5,2,1,3 )
+Pickup Order : [0,1,1,3 ]
+Updated Buffer : ( 5,1,0,0 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 34
+
+Current Time : 171554 us
+Product worker ID: 1
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 106 us
+Buffer State : ( 5,1,0,0 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 4,0,0,0 )
+Updated Pickup Order : [0,1,0,2 ]
+
+Current Time : 171893 us
+Product worker ID: 0
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 113 us
+Buffer State : ( 4,0,0,0 )
+Pickup Order : [0,1,2,2 ]
+Updated Buffer : ( 4,0,0,0 )
+Updated Pickup Order : [0,1,2,2 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 172255 us
+Product worker ID: 9
+Iteration: 4
+Status : WakeUp-Notified 
+Buffer State : ( 4,0,0,0 )
+Pickup Order : [0,0,0,1 ]
+Updated Buffer State : ( 4,0,0,0 )
+Pickup Order to be destroyed : [2,1,0,1 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 172492 us
+Part_Worker ID : 13
+Iteration : 3
+Status : WakeUp-Notified 
+Accumulated Wait Time : 16037 us
+Buffer State : ( 4,0,0,0 )
+Load Order : [ 0,3,0,0 ]
+Updated Buffer State : ( 4,3,0,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 172865 us
+Product worker ID: 2
+Iteration: 4
+Status : WakeUp-Notified 
+Buffer State : ( 4,3,0,0 )
+Pickup Order : [0,3,1,0 ]
+Updated Buffer State : ( 4,3,0,0 )
+Pickup Order to be destroyed : [0,0,0,1 ]
+
+Current Time : 173273 us
+Part_Worker ID : 19
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 13868 us
+Buffer State : ( 4,3,0,0 )
+Load Order : [ 2,1,1,0 ]
+Updated Buffer State : ( 6,4,1,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 173570 us
+Part_Worker ID : 6
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 14141 us
+Buffer State : ( 6,4,1,0 )
+Load Order : [ 0,0,0,2 ]
+Updated Buffer State : ( 6,4,1,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 173878 us
+Part_Worker ID : 11
+Iteration : 3
+Status : WakeUp-Notified 
+Accumulated Wait Time : 14503 us
+Buffer State : ( 6,4,1,2 )
+Load Order : [ 0,0,0,1 ]
+Updated Buffer State : ( 6,4,1,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 174184 us
+Product worker ID: 15
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 125 us
+Buffer State : ( 6,4,1,3 )
+Pickup Order : [0,1,3,1 ]
+Updated Buffer : ( 6,3,0,2 )
+Updated Pickup Order : [0,0,2,0 ]
+
+Current Time : 174512 us
+Part_Worker ID : 16
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 127 us
+Buffer State : ( 6,3,0,2 )
+Load Order : [ 1,0,2,1 ]
+Updated Buffer State : ( 6,3,2,3 )
+Updated Load Order : [ 1,0,0,0 ]
+
+Current Time : 174842 us
+Part_Worker ID : 4
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 126 us
+Buffer State : ( 6,3,2,3 )
+Load Order : [ 2,0,2,0 ]
+Updated Buffer State : ( 6,3,4,3 )
+Updated Load Order : [ 2,0,0,0 ]
+
+Current Time : 175140 us
+Part_Worker ID : 0
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 92 us
+Buffer State : ( 6,3,4,3 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 6,5,4,3 )
+Updated Load Order : [ 0,0,2,0 ]
+
+Current Time : 175414 us
+Product worker ID: 4
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 88 us
+Buffer State : ( 6,5,4,3 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 5,2,3,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 35
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 175763 us
+Part_Worker ID : 16
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 1359 us
+Buffer State : ( 5,2,3,3 )
+Load Order : [ 1,0,0,0 ]
+Updated Buffer State : ( 6,2,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 176025 us
+Part_Worker ID : 18
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 100 us
+Buffer State : ( 6,2,3,3 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 6,4,4,3 )
+Updated Load Order : [ 0,0,1,0 ]
+
+Current Time : 176339 us
+Part_Worker ID : 7
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 101 us
+Buffer State : ( 6,4,4,3 )
+Load Order : [ 0,3,0,1 ]
+Updated Buffer State : ( 6,5,4,3 )
+Updated Load Order : [ 0,2,0,1 ]
+
+Current Time : 176889 us
+Product worker ID: 5
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 135 us
+Buffer State : ( 6,5,4,3 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 5,3,4,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 36
+
+Current Time : 177241 us
+Part_Worker ID : 17
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 615 us
+Buffer State : ( 5,3,4,1 )
+Load Order : [ 0,1,1,2 ]
+Updated Buffer State : ( 5,4,4,3 )
+Updated Load Order : [ 0,0,1,0 ]
+
+Current Time : 177665 us
+Part_Worker ID : 10
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 112 us
+Buffer State : ( 5,4,4,3 )
+Load Order : [ 0,0,3,1 ]
+Updated Buffer State : ( 5,4,4,3 )
+Updated Load Order : [ 0,0,3,1 ]
+
+Current Time : 177972 us
+Part_Worker ID : 14
+Iteration : 2
+Status : New Load Order 
+Accumulated Wait Time : 116 us
+Buffer State : ( 5,4,4,3 )
+Load Order : [ 2,1,0,1 ]
+Updated Buffer State : ( 6,5,4,3 )
+Updated Load Order : [ 1,0,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 178322 us
+Part_Worker ID : 1
+Iteration : 3
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 8869 us
+Buffer State : ( 6,5,4,3 )
+Load Order : [ 0,0,0,1 ]
+Updated Buffer State : ( 6,5,4,3 )
+Load Order to be discarded : [ 0,0,0,1 ]
+
+Current Time : 178587 us
+Product worker ID: 7
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 106 us
+Buffer State : ( 6,5,4,3 )
+Pickup Order : [1,2,2,0 ]
+Updated Buffer : ( 5,3,2,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 37
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 179101 us
+Part_Worker ID : 2
+Iteration : 3
+Status : WakeUp-Notified 
+Accumulated Wait Time : 9274 us
+Buffer State : ( 5,3,2,3 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 5,3,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 179411 us
+Product worker ID: 13
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 95 us
+Buffer State : ( 5,3,3,3 )
+Pickup Order : [1,1,3,0 ]
+Updated Buffer : ( 4,2,0,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 38
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 179738 us
+Product worker ID: 0
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 4,2,0,3 )
+Pickup Order : [0,1,2,2 ]
+Updated Buffer State : ( 4,2,0,3 )
+Pickup Order to be destroyed : [0,0,0,0 ]
+
+Current Time : 179974 us
+Product worker ID: 11
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 95 us
+Buffer State : ( 4,2,0,3 )
+Pickup Order : [0,1,3,1 ]
+Updated Buffer : ( 4,1,0,2 )
+Updated Pickup Order : [0,0,3,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 180254 us
+Product worker ID: 6
+Iteration: 2
+Status : WakeUp-Notified 
+Buffer State : ( 4,1,0,2 )
+Pickup Order : [1,2,0,0 ]
+Updated Buffer State : ( 4,1,0,2 )
+Pickup Order to be destroyed : [1,0,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 180510 us
+Product worker ID: 1
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 4,1,0,2 )
+Pickup Order : [0,1,0,2 ]
+Updated Buffer State : ( 4,1,0,2 )
+Pickup Order to be destroyed : [1,1,0,0 ]
+
+Current Time : 180802 us
+Product worker ID: 8
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 95 us
+Buffer State : ( 4,1,0,2 )
+Pickup Order : [0,3,1,1 ]
+Updated Buffer : ( 4,0,0,1 )
+Updated Pickup Order : [0,2,1,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 181123 us
+Part_Worker ID : 4
+Iteration : 5
+Status : WakeUp-Notified 
+Accumulated Wait Time : 6406 us
+Buffer State : ( 4,0,0,1 )
+Load Order : [ 2,0,0,0 ]
+Updated Buffer State : ( 6,0,0,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 181464 us
+Part_Worker ID : 5
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 5223 us
+Buffer State : ( 6,0,0,1 )
+Load Order : [ 1,1,1,1 ]
+Updated Buffer State : ( 6,1,1,2 )
+Updated Load Order : [ 1,0,0,0 ]
+
+Current Time : 182311 us
+Part_Worker ID : 8
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 84 us
+Buffer State : ( 6,1,1,2 )
+Load Order : [ 0,3,0,1 ]
+Updated Buffer State : ( 6,4,1,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 182595 us
+Part_Worker ID : 15
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 6018 us
+Buffer State : ( 6,4,1,3 )
+Load Order : [ 2,2,0,0 ]
+Updated Buffer State : ( 6,5,1,3 )
+Updated Load Order : [ 2,1,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 182926 us
+Part_Worker ID : 7
+Iteration : 4
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 6679 us
+Buffer State : ( 6,5,1,3 )
+Load Order : [ 0,2,0,1 ]
+Updated Buffer State : ( 6,5,1,3 )
+Load Order to be discarded : [ 0,2,0,1 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 183221 us
+Part_Worker ID : 18
+Iteration : 3
+Status : WakeUp-Notified 
+Accumulated Wait Time : 7300 us
+Buffer State : ( 6,5,1,3 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 6,5,2,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 183594 us
+Part_Worker ID : 14
+Iteration : 2
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 5741 us
+Buffer State : ( 6,5,2,3 )
+Load Order : [ 1,0,0,1 ]
+Updated Buffer State : ( 6,5,2,3 )
+Load Order to be discarded : [ 1,0,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 183893 us
+Part_Worker ID : 10
+Iteration : 2
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 6341 us
+Buffer State : ( 6,5,2,3 )
+Load Order : [ 0,0,3,1 ]
+Updated Buffer State : ( 6,5,2,3 )
+Load Order to be discarded : [ 0,0,3,1 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 184214 us
+Part_Worker ID : 17
+Iteration : 2
+Status : WakeUp-Notified 
+Accumulated Wait Time : 7570 us
+Buffer State : ( 6,5,2,3 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 6,5,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 184497 us
+Product worker ID: 0
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 90 us
+Buffer State : ( 6,5,3,3 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 5,3,3,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 39
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 184822 us
+Part_Worker ID : 5
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 8203 us
+Buffer State : ( 5,3,3,1 )
+Load Order : [ 1,0,0,0 ]
+Updated Buffer State : ( 6,3,3,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 185182 us
+Product worker ID: 15
+Iteration: 4
+Status : WakeUp-Notified 
+Buffer State : ( 6,3,3,1 )
+Pickup Order : [0,0,2,0 ]
+Updated Buffer : ( 6,3,1,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 40
+
+Current Time : 185464 us
+Part_Worker ID : 13
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 104 us
+Buffer State : ( 6,3,1,1 )
+Load Order : [ 1,1,2,0 ]
+Updated Buffer State : ( 6,4,3,1 )
+Updated Load Order : [ 1,0,0,0 ]
+
+Current Time : 185832 us
+Part_Worker ID : 19
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 129 us
+Buffer State : ( 6,4,3,1 )
+Load Order : [ 1,0,0,3 ]
+Updated Buffer State : ( 6,4,3,3 )
+Updated Load Order : [ 1,0,0,1 ]
+
+Current Time : 186142 us
+Part_Worker ID : 12
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 92 us
+Buffer State : ( 6,4,3,3 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 6,4,4,3 )
+Updated Load Order : [ 0,0,0,3 ]
+
+Current Time : 186413 us
+Part_Worker ID : 11
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 123 us
+Buffer State : ( 6,4,4,3 )
+Load Order : [ 1,2,0,1 ]
+Updated Buffer State : ( 6,5,4,3 )
+Updated Load Order : [ 1,1,0,1 ]
+
+Current Time : 187299 us
+Product worker ID: 4
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 140 us
+Buffer State : ( 6,5,4,3 )
+Pickup Order : [0,3,1,1 ]
+Updated Buffer : ( 6,2,3,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 41
+
+Current Time : 187711 us
+Part_Worker ID : 3
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 548 us
+Buffer State : ( 6,2,3,2 )
+Load Order : [ 3,0,0,1 ]
+Updated Buffer State : ( 6,2,3,3 )
+Updated Load Order : [ 3,0,0,0 ]
+
+Current Time : 188024 us
+Part_Worker ID : 6
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 113 us
+Buffer State : ( 6,2,3,3 )
+Load Order : [ 2,0,1,1 ]
+Updated Buffer State : ( 6,2,4,3 )
+Updated Load Order : [ 2,0,0,1 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 188429 us
+Product worker ID: 11
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 6,2,4,3 )
+Pickup Order : [0,0,3,0 ]
+Updated Buffer : ( 6,2,1,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 42
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 188790 us
+Product worker ID: 8
+Iteration: 3
+Status : WakeUp-Notified 
+Buffer State : ( 6,2,1,3 )
+Pickup Order : [0,2,1,0 ]
+Updated Buffer State : ( 6,2,1,3 )
+Pickup Order to be destroyed : [0,1,0,1 ]
+
+Current Time : 189052 us
+Product worker ID: 9
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 106 us
+Buffer State : ( 6,2,1,3 )
+Pickup Order : [0,1,1,3 ]
+Updated Buffer : ( 6,1,0,0 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 43
+
+Current Time : 189337 us
+Product worker ID: 7
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 103 us
+Buffer State : ( 6,1,0,0 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 5,0,0,0 )
+Updated Pickup Order : [0,2,0,1 ]
+
+Current Time : 189604 us
+Part_Worker ID : 2
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 105 us
+Buffer State : ( 5,0,0,0 )
+Load Order : [ 3,1,0,0 ]
+Updated Buffer State : ( 6,1,0,0 )
+Updated Load Order : [ 2,0,0,0 ]
+
+Current Time : 189906 us
+Product worker ID: 5
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 101 us
+Buffer State : ( 6,1,0,0 )
+Pickup Order : [1,1,3,0 ]
+Updated Buffer : ( 5,0,0,0 )
+Updated Pickup Order : [0,0,3,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 190208 us
+Part_Worker ID : 15
+Iteration : 4
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 13630 us
+Buffer State : ( 5,0,0,0 )
+Load Order : [ 2,1,0,0 ]
+Updated Buffer State : ( 5,0,0,0 )
+Load Order to be discarded : [ 2,1,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 190543 us
+Part_Worker ID : 0
+Iteration : 3
+Status : WakeUp-Notified 
+Accumulated Wait Time : 15497 us
+Buffer State : ( 5,0,0,0 )
+Load Order : [ 0,0,2,0 ]
+Updated Buffer State : ( 5,0,2,0 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 190830 us
+Part_Worker ID : 18
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 121 us
+Buffer State : ( 5,0,2,0 )
+Load Order : [ 1,2,0,1 ]
+Updated Buffer State : ( 6,2,2,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 191161 us
+Part_Worker ID : 1
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 125 us
+Buffer State : ( 6,2,2,1 )
+Load Order : [ 1,1,2,0 ]
+Updated Buffer State : ( 6,3,4,1 )
+Updated Load Order : [ 1,0,0,0 ]
+
+Current Time : 191454 us
+Part_Worker ID : 8
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 81 us
+Buffer State : ( 6,3,4,1 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 6,5,4,1 )
+Updated Load Order : [ 0,0,2,0 ]
+
+Current Time : 191720 us
+Product worker ID: 15
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 125 us
+Buffer State : ( 6,5,4,1 )
+Pickup Order : [1,3,0,1 ]
+Updated Buffer : ( 5,2,4,0 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 44
+
+Current Time : 192052 us
+Part_Worker ID : 16
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 4907 us
+Buffer State : ( 5,2,4,0 )
+Load Order : [ 0,1,0,3 ]
+Updated Buffer State : ( 5,3,4,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 192368 us
+Product worker ID: 5
+Iteration: 4
+Status : WakeUp-Notified 
+Buffer State : ( 5,3,4,3 )
+Pickup Order : [0,0,3,0 ]
+Updated Buffer : ( 5,3,1,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 45
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 193354 us
+Part_Worker ID : 12
+Iteration : 3
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 7338 us
+Buffer State : ( 5,3,1,3 )
+Load Order : [ 0,0,0,3 ]
+Updated Buffer State : ( 5,3,1,3 )
+Load Order to be discarded : [ 0,0,0,3 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 193684 us
+Part_Worker ID : 19
+Iteration : 4
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 7962 us
+Buffer State : ( 5,3,1,3 )
+Load Order : [ 1,0,0,1 ]
+Updated Buffer State : ( 5,3,1,3 )
+Load Order to be discarded : [ 1,0,0,1 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 194001 us
+Part_Worker ID : 13
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 8643 us
+Buffer State : ( 5,3,1,3 )
+Load Order : [ 1,0,0,0 ]
+Updated Buffer State : ( 6,3,1,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 194304 us
+Part_Worker ID : 3
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 7133 us
+Buffer State : ( 6,3,1,3 )
+Load Order : [ 3,0,0,0 ]
+Updated Buffer State : ( 6,3,1,3 )
+Load Order to be discarded : [ 3,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 194665 us
+Part_Worker ID : 6
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 6762 us
+Buffer State : ( 6,3,1,3 )
+Load Order : [ 2,0,0,1 ]
+Updated Buffer State : ( 6,3,1,3 )
+Load Order to be discarded : [ 2,0,0,1 ]
+
+Current Time : 194958 us
+Part_Worker ID : 5
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 94 us
+Buffer State : ( 6,3,1,3 )
+Load Order : [ 0,2,0,2 ]
+Updated Buffer State : ( 6,5,1,3 )
+Updated Load Order : [ 0,0,0,2 ]
+
+Current Time : 195253 us
+Part_Worker ID : 17
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 110 us
+Buffer State : ( 6,5,1,3 )
+Load Order : [ 1,1,2,0 ]
+Updated Buffer State : ( 6,5,3,3 )
+Updated Load Order : [ 1,1,0,0 ]
+
+Current Time : 195586 us
+Product worker ID: 0
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 131 us
+Buffer State : ( 6,5,3,3 )
+Pickup Order : [3,0,1,1 ]
+Updated Buffer : ( 3,5,2,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 46
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 196015 us
+Part_Worker ID : 1
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 4966 us
+Buffer State : ( 3,5,2,2 )
+Load Order : [ 1,0,0,0 ]
+Updated Buffer State : ( 4,5,2,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 196337 us
+Product worker ID: 2
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 135 us
+Buffer State : ( 4,5,2,2 )
+Pickup Order : [0,1,1,3 ]
+Updated Buffer : ( 4,4,1,0 )
+Updated Pickup Order : [0,0,0,1 ]
+
+Current Time : 196678 us
+Product worker ID: 1
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 122 us
+Buffer State : ( 4,4,1,0 )
+Pickup Order : [0,1,2,2 ]
+Updated Buffer : ( 4,3,0,0 )
+Updated Pickup Order : [0,0,1,2 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 197037 us
+Product worker ID: 7
+Iteration: 5
+Status : WakeUp-Notified 
+Buffer State : ( 4,3,0,0 )
+Pickup Order : [0,2,0,1 ]
+Updated Buffer State : ( 4,3,0,0 )
+Pickup Order to be destroyed : [1,1,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 197338 us
+Part_Worker ID : 11
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 11042 us
+Buffer State : ( 4,3,0,0 )
+Load Order : [ 1,1,0,1 ]
+Updated Buffer State : ( 5,4,0,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 197633 us
+Part_Worker ID : 14
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 114 us
+Buffer State : ( 5,4,0,1 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 5,4,1,3 )
+Updated Load Order : [ 0,0,0,1 ]
+
+Current Time : 197953 us
+Part_Worker ID : 10
+Iteration : 3
+Status : New Load Order 
+Accumulated Wait Time : 124 us
+Buffer State : ( 5,4,1,3 )
+Load Order : [ 0,1,1,2 ]
+Updated Buffer State : ( 5,5,2,3 )
+Updated Load Order : [ 0,0,0,2 ]
+
+Current Time : 198248 us
+Part_Worker ID : 7
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 90 us
+Buffer State : ( 5,5,2,3 )
+Load Order : [ 2,0,2,0 ]
+Updated Buffer State : ( 6,5,4,3 )
+Updated Load Order : [ 1,0,0,0 ]
+
+Current Time : 198556 us
+Product worker ID: 8
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 130 us
+Buffer State : ( 6,5,4,3 )
+Pickup Order : [3,1,1,0 ]
+Updated Buffer : ( 3,4,3,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 47
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 198894 us
+Part_Worker ID : 7
+Iteration : 5
+Status : WakeUp-Notified 
+Accumulated Wait Time : 735 us
+Buffer State : ( 3,4,3,3 )
+Load Order : [ 1,0,0,0 ]
+Updated Buffer State : ( 4,4,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 199187 us
+Product worker ID: 4
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 446 us
+Buffer State : ( 4,4,3,3 )
+Pickup Order : [1,2,2,0 ]
+Updated Buffer : ( 3,2,1,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 48
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 200663 us
+Part_Worker ID : 2
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 11170 us
+Buffer State : ( 3,2,1,3 )
+Load Order : [ 2,0,0,0 ]
+Updated Buffer State : ( 5,2,1,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 200966 us
+Part_Worker ID : 8
+Iteration : 5
+Status : WakeUp-Notified 
+Accumulated Wait Time : 9594 us
+Buffer State : ( 5,2,1,3 )
+Load Order : [ 0,0,2,0 ]
+Updated Buffer State : ( 5,2,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 201206 us
+Product worker ID: 6
+Iteration: 3
+Status : New PickUp Order 
+Accumulated Wait Time : 290 us
+Buffer State : ( 5,2,3,3 )
+Pickup Order : [2,1,0,2 ]
+Updated Buffer : ( 3,1,3,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 49
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 201727 us
+Part_Worker ID : 5
+Iteration : 5
+Status : WakeUp-Notified 
+Accumulated Wait Time : 6866 us
+Buffer State : ( 3,1,3,1 )
+Load Order : [ 0,0,0,2 ]
+Updated Buffer State : ( 3,1,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 202305 us
+Part_Worker ID : 17
+Iteration : 3
+Status : WakeUp-Notified 
+Accumulated Wait Time : 7200 us
+Buffer State : ( 3,1,3,3 )
+Load Order : [ 1,1,0,0 ]
+Updated Buffer State : ( 4,2,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate True condition
+---------------------------------------
+Current Time : 202964 us
+Product worker ID: 2
+Iteration: 5
+Status : WakeUp-Notified 
+Buffer State : ( 4,2,3,3 )
+Pickup Order : [0,0,0,1 ]
+Updated Buffer : ( 4,2,3,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 50
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 203470 us
+Product worker ID: 1
+Iteration: 4
+Status : WakeUp-Notified 
+Buffer State : ( 4,2,3,2 )
+Pickup Order : [0,0,1,2 ]
+Updated Buffer State : ( 4,2,3,2 )
+Pickup Order to be destroyed : [0,1,1,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 203789 us
+Part_Worker ID : 10
+Iteration : 3
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 5956 us
+Buffer State : ( 4,2,3,2 )
+Load Order : [ 0,0,0,2 ]
+Updated Buffer State : ( 4,2,3,2 )
+Load Order to be discarded : [ 0,0,0,2 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 204106 us
+Part_Worker ID : 14
+Iteration : 3
+Status : WakeUp-Notified 
+Accumulated Wait Time : 6575 us
+Buffer State : ( 4,2,3,2 )
+Load Order : [ 0,0,0,1 ]
+Updated Buffer State : ( 4,2,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 204371 us
+Product worker ID: 11
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 123 us
+Buffer State : ( 4,2,3,3 )
+Pickup Order : [2,1,2,0 ]
+Updated Buffer : ( 2,1,1,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 51
+
+Current Time : 204718 us
+Part_Worker ID : 13
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 125 us
+Buffer State : ( 2,1,1,3 )
+Load Order : [ 0,0,1,3 ]
+Updated Buffer State : ( 2,1,2,3 )
+Updated Load Order : [ 0,0,0,3 ]
+
+Current Time : 205036 us
+Part_Worker ID : 15
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 102 us
+Buffer State : ( 2,1,2,3 )
+Load Order : [ 1,0,0,3 ]
+Updated Buffer State : ( 3,1,2,3 )
+Updated Load Order : [ 0,0,0,3 ]
+
+Current Time : 205334 us
+Part_Worker ID : 18
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 127 us
+Buffer State : ( 3,1,2,3 )
+Load Order : [ 0,0,2,2 ]
+Updated Buffer State : ( 3,1,4,3 )
+Updated Load Order : [ 0,0,0,2 ]
+
+Current Time : 205738 us
+Part_Worker ID : 1
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 125 us
+Buffer State : ( 3,1,4,3 )
+Load Order : [ 1,1,1,1 ]
+Updated Buffer State : ( 4,2,4,3 )
+Updated Load Order : [ 0,0,1,1 ]
+
+Current Time : 206069 us
+Part_Worker ID : 11
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 123 us
+Buffer State : ( 4,2,4,3 )
+Load Order : [ 0,3,0,1 ]
+Updated Buffer State : ( 4,5,4,3 )
+Updated Load Order : [ 0,0,0,1 ]
+
+Current Time : 206400 us
+Part_Worker ID : 0
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 123 us
+Buffer State : ( 4,5,4,3 )
+Load Order : [ 0,1,1,2 ]
+Updated Buffer State : ( 4,5,4,3 )
+Updated Load Order : [ 0,1,1,2 ]
+
+Current Time : 206738 us
+Product worker ID: 5
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 128 us
+Buffer State : ( 4,5,4,3 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 3,2,3,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 52
+
+Current Time : 207087 us
+Part_Worker ID : 19
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 91 us
+Buffer State : ( 3,2,3,3 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 3,4,4,3 )
+Updated Load Order : [ 0,0,1,0 ]
+
+Current Time : 207402 us
+Part_Worker ID : 2
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 143 us
+Buffer State : ( 3,4,4,3 )
+Load Order : [ 0,0,2,2 ]
+Updated Buffer State : ( 3,4,4,3 )
+Updated Load Order : [ 0,0,2,2 ]
+
+Current Time : 207887 us
+Part_Worker ID : 12
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 124 us
+Buffer State : ( 3,4,4,3 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 3,5,4,3 )
+Updated Load Order : [ 0,1,2,0 ]
+
+Current Time : 208209 us
+Product worker ID: 8
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 117 us
+Buffer State : ( 3,5,4,3 )
+Pickup Order : [1,3,1,0 ]
+Updated Buffer : ( 2,2,3,3 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 53
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 208547 us
+Part_Worker ID : 15
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 3616 us
+Buffer State : ( 2,2,3,3 )
+Load Order : [ 0,0,0,3 ]
+Updated Buffer State : ( 2,2,3,3 )
+Load Order to be discarded : [ 0,0,0,3 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 208942 us
+Part_Worker ID : 19
+Iteration : 5
+Status : WakeUp-Notified 
+Accumulated Wait Time : 1985 us
+Buffer State : ( 2,2,3,3 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 2,2,4,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 209755 us
+Part_Worker ID : 13
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 5752 us
+Buffer State : ( 2,2,4,3 )
+Load Order : [ 0,0,0,3 ]
+Updated Buffer State : ( 2,2,4,3 )
+Load Order to be discarded : [ 0,0,0,3 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 210845 us
+Part_Worker ID : 18
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 5615 us
+Buffer State : ( 2,2,4,3 )
+Load Order : [ 0,0,0,2 ]
+Updated Buffer State : ( 2,2,4,3 )
+Load Order to be discarded : [ 0,0,0,2 ]
+
+Current Time : 211074 us
+Part_Worker ID : 14
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 87 us
+Buffer State : ( 2,2,4,3 )
+Load Order : [ 1,2,1,0 ]
+Updated Buffer State : ( 3,4,4,3 )
+Updated Load Order : [ 0,0,1,0 ]
+
+Current Time : 211343 us
+Part_Worker ID : 17
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 76 us
+Buffer State : ( 3,4,4,3 )
+Load Order : [ 1,0,2,1 ]
+Updated Buffer State : ( 4,4,4,3 )
+Updated Load Order : [ 0,0,2,1 ]
+
+Current Time : 211627 us
+Product worker ID: 6
+Iteration: 4
+Status : New PickUp Order 
+Accumulated Wait Time : 153 us
+Buffer State : ( 4,4,4,3 )
+Pickup Order : [0,1,3,1 ]
+Updated Buffer : ( 4,3,1,2 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 54
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 212025 us
+Part_Worker ID : 17
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 767 us
+Buffer State : ( 4,3,1,2 )
+Load Order : [ 0,0,2,1 ]
+Updated Buffer State : ( 4,3,3,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 212382 us
+Product worker ID: 1
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 160 us
+Buffer State : ( 4,3,3,3 )
+Pickup Order : [1,2,0,2 ]
+Updated Buffer : ( 3,1,3,1 )
+Updated Pickup Order : [0,0,0,0 ]
+Total Completed Products : 55
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 212822 us
+Part_Worker ID : 14
+Iteration : 4
+Status : WakeUp-Notified 
+Accumulated Wait Time : 1852 us
+Buffer State : ( 3,1,3,1 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 3,1,4,1 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 213164 us
+Part_Worker ID : 2
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 5887 us
+Buffer State : ( 3,1,4,1 )
+Load Order : [ 0,0,2,2 ]
+Updated Buffer State : ( 3,1,4,1 )
+Load Order to be discarded : [ 0,0,2,2 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 213457 us
+Part_Worker ID : 0
+Iteration : 4
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 7166 us
+Buffer State : ( 3,1,4,1 )
+Load Order : [ 0,1,1,2 ]
+Updated Buffer State : ( 3,1,4,1 )
+Load Order to be discarded : [ 0,1,1,2 ]
+
+Current Time : 213751 us
+Product worker ID: 11
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 104 us
+Buffer State : ( 3,1,4,1 )
+Pickup Order : [2,2,1,0 ]
+Updated Buffer : ( 1,0,3,1 )
+Updated Pickup Order : [0,1,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 214026 us
+Part_Worker ID : 11
+Iteration : 5
+Status : WakeUp-Notified 
+Accumulated Wait Time : 8064 us
+Buffer State : ( 1,0,3,1 )
+Load Order : [ 0,0,0,1 ]
+Updated Buffer State : ( 1,0,3,2 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 214693 us
+Part_Worker ID : 1
+Iteration : 5
+Status : WakeUp-Notified 
+Accumulated Wait Time : 9729 us
+Buffer State : ( 1,0,3,2 )
+Load Order : [ 0,0,1,1 ]
+Updated Buffer State : ( 1,0,4,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 216001 us
+Part_Worker ID : 12
+Iteration : 4
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 8738 us
+Buffer State : ( 1,0,4,3 )
+Load Order : [ 0,1,2,0 ]
+Updated Buffer State : ( 1,0,4,3 )
+Load Order to be discarded : [ 0,1,2,0 ]
+
+Current Time : 216851 us
+Part_Worker ID : 10
+Iteration : 4
+Status : New Load Order 
+Accumulated Wait Time : 112 us
+Buffer State : ( 1,0,4,3 )
+Load Order : [ 0,1,2,1 ]
+Updated Buffer State : ( 1,1,4,3 )
+Updated Load Order : [ 0,0,2,1 ]
+
+Current Time : 217145 us
+Part_Worker ID : 17
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 98 us
+Buffer State : ( 1,1,4,3 )
+Load Order : [ 0,3,1,0 ]
+Updated Buffer State : ( 1,4,4,3 )
+Updated Load Order : [ 0,0,1,0 ]
+
+Current Time : 217432 us
+Product worker ID: 6
+Iteration: 5
+Status : New PickUp Order 
+Accumulated Wait Time : 125 us
+Buffer State : ( 1,4,4,3 )
+Pickup Order : [3,0,1,1 ]
+Updated Buffer : ( 0,4,3,2 )
+Updated Pickup Order : [2,0,0,0 ]
+
+Current Time : 217863 us
+Part_Worker ID : 14
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 138 us
+Buffer State : ( 0,4,3,2 )
+Load Order : [ 0,2,0,2 ]
+Updated Buffer State : ( 0,5,3,3 )
+Updated Load Order : [ 0,1,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 232719 us
+Product worker ID: 6
+Iteration: 5
+Status : WakeUp-Notified 
+Buffer State : ( 0,5,3,3 )
+Pickup Order : [2,0,0,0 ]
+Updated Buffer State : ( 0,5,3,3 )
+Pickup Order to be destroyed : [1,0,1,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 233227 us
+Part_Worker ID : 14
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 15532 us
+Buffer State : ( 0,5,3,3 )
+Load Order : [ 0,1,0,1 ]
+Updated Buffer State : ( 0,5,3,3 )
+Load Order to be discarded : [ 0,1,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 233792 us
+Product worker ID: 11
+Iteration: 5
+Status : WakeUp-Notified 
+Buffer State : ( 0,5,3,3 )
+Pickup Order : [0,1,0,0 ]
+Updated Buffer State : ( 0,5,3,3 )
+Pickup Order to be destroyed : [2,1,1,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 234292 us
+Part_Worker ID : 10
+Iteration : 4
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 17564 us
+Buffer State : ( 0,5,3,3 )
+Load Order : [ 0,0,2,1 ]
+Updated Buffer State : ( 0,5,3,3 )
+Load Order to be discarded : [ 0,0,2,1 ]
+
+Current Time : 234620 us
+Part_Worker ID : 0
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 124 us
+Buffer State : ( 0,5,3,3 )
+Load Order : [ 1,0,0,3 ]
+Updated Buffer State : ( 1,5,3,3 )
+Updated Load Order : [ 0,0,0,3 ]
+
+---------------------------------------
+Entered in predicate true condition
+---------------------------------------
+Current Time : 235057 us
+Part_Worker ID : 17
+Iteration : 5
+Status : WakeUp-Notified 
+Accumulated Wait Time : 18030 us
+Buffer State : ( 1,5,3,3 )
+Load Order : [ 0,0,1,0 ]
+Updated Buffer State : ( 1,5,4,3 )
+Updated Load Order : [ 0,0,0,0 ]
+
+Current Time : 235885 us
+Part_Worker ID : 12
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 463 us
+Buffer State : ( 1,5,4,3 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 1,5,4,3 )
+Updated Load Order : [ 0,2,2,0 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 248687 us
+Part_Worker ID : 0
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 14787 us
+Buffer State : ( 1,5,4,3 )
+Load Order : [ 0,0,0,3 ]
+Updated Buffer State : ( 1,5,4,3 )
+Load Order to be discarded : [ 0,0,0,3 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 249738 us
+Part_Worker ID : 12
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 14034 us
+Buffer State : ( 1,5,4,3 )
+Load Order : [ 0,2,2,0 ]
+Updated Buffer State : ( 1,5,4,3 )
+Load Order to be discarded : [ 0,2,2,0 ]
+
+Current Time : 264717 us
+Part_Worker ID : 10
+Iteration : 5
+Status : New Load Order 
+Accumulated Wait Time : 555 us
+Buffer State : ( 1,5,4,3 )
+Load Order : [ 1,2,0,1 ]
+Updated Buffer State : ( 2,5,4,3 )
+Updated Load Order : [ 0,2,0,1 ]
+
+---------------------------------------
+Entered in predicate false condition
+---------------------------------------
+Current Time : 279781 us
+Part_Worker ID : 10
+Iteration : 5
+Status : WakeUp-Timedout 
+Accumulated Wait Time : 15269 us
+Buffer State : ( 2,5,4,3 )
+Load Order : [ 0,2,0,1 ]
+Updated Buffer State : ( 2,5,4,3 )
+Load Order to be discarded : [ 0,2,0,1 ]
+
+ Hurraaayyyy !!!!  Production Completed !! 
+total products we developed today: 55

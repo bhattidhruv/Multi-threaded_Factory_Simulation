@@ -1,0 +1,4 @@
+﻿  Centralized_factory.cpp
+C:\Users\dhruv\OneDrive - Syracuse University\Desktop\Study\DGB_Code\code_workSpace\github\Factory_Simulation\Factory_Simulation\Centralized_factory.cpp(483,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dhruv\OneDrive - Syracuse University\Desktop\Study\DGB_Code\code_workSpace\github\Factory_Simulation\Factory_Simulation\Centralized_factory.cpp(538,23): warning C4018: '<': signed/unsigned mismatch
+  Factory_Simulation.vcxproj -> C:\Users\dhruv\OneDrive - Syracuse University\Desktop\Study\DGB_Code\code_workSpace\github\Factory_Simulation\Debug\Factory_Simulation.exe

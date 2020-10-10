@@ -1,0 +1,4 @@
+﻿  decentralized_facotry.cpp
+C:\Users\dhruv\OneDrive - Syracuse University\Desktop\Study\DGB_Code\code_workSpace\github\Factory_Simulation\Factory_Simulation\decentralized_facotry.cpp(82,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dhruv\OneDrive - Syracuse University\Desktop\Study\DGB_Code\code_workSpace\github\Factory_Simulation\Factory_Simulation\decentralized_facotry.cpp(137,23): warning C4018: '<': signed/unsigned mismatch
+  Decentralized_Factory_Simulation.vcxproj -> C:\Users\dhruv\OneDrive - Syracuse University\Desktop\Study\DGB_Code\code_workSpace\github\Factory_Simulation\Debug\Decentralized_Factory_Simulation.exe
